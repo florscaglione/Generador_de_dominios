@@ -31,7 +31,4 @@ for (let a = 0; a < pronombres.length; a++) {
   }
 }
 
-console.log(domainNames); //function appendDomainNames(element) {
-//  element.innerHTML = "";
-//  console.log(domainNames.join(""));
-//}
+console.log(domainNames);
