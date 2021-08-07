@@ -11,7 +11,7 @@ let domainNames = [];
 let pronombres = ["the", "our"];
 let adjetivos = ["great", "big"];
 let sustantivos = ["jogger", "racoon"];
-let extensiones = ["com", "es"];
+let extensiones = [".com", ".es"];
 
 for (let a = 0; a < pronombres.length; a++) {
   let pronombre = pronombres[a];
@@ -22,7 +22,7 @@ for (let a = 0; a < pronombres.length; a++) {
     for (let c = 0; c < sustantivos.length; c++) {
       let sustantivo = sustantivos[c];
 
-      for (let d = 0; c < extensiones.length; d++) {
+      for (let d = 0; d < extensiones.length; d++) {
         let extension = extensiones[d];
 
         domainNames.push(pronombre + adjetivo + sustantivo + extension);
